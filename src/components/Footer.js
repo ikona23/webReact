@@ -1,14 +1,14 @@
 import React from "react"
+// import logo from './logo.svg'
 
-
-import Footer from "./Footer"
-
-export default class Layout extends React.component {
-  render() {
-    return(
-      <div>
-        <h5>Footer</h5>
-      </div>
-    )
-  }
+export default class Footer extends React.Component {
+    render() {
+        return (
+            <div>
+                <h4>Footer</h4>
+            </div>
+        )
+    }
 }
+
+
